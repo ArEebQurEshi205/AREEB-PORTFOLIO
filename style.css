@@ -140,7 +140,7 @@ section {
 /* ---- HERO ---- */
 .main-container {
   width: 100%;
-  min-height: 70vh;
+  min-height: 60vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -335,7 +335,7 @@ section {
 
 /* ===== Education Section ===== */
 .education-section {
-  background: linear-gradient(135deg, #f7faff, #eef3f9);
+  background: linear-gradient(135deg, #001c4d, #264264);
   padding: 80px 20px;
 }
 
@@ -344,7 +344,7 @@ section {
   text-align: center;
   margin-bottom: 60px;
   font-weight: 700;
-  color: #1a1a1a;
+  color: #f8f5f5;
   position: relative;
 }
 
@@ -387,8 +387,8 @@ section {
   left: -3px;
   top: 0;
   background: #fff;
-  color: #007bff;
-  border: 3px solid #007bff;
+  color: #000000;
+  border: 3px solid #000000;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -400,7 +400,7 @@ section {
 }
 
 .timeline-content {
-  background: #fff;
+  background: #000000;
   padding: 20px 25px;
   border-radius: 12px;
   box-shadow: 0 6px 18px rgba(0,0,0,0.08);
@@ -422,14 +422,14 @@ section {
 .edu-date {
   font-size: 14px;
   font-weight: 600;
-  color: #666;
+  color: #fafafa;
   display: block;
   margin-bottom: 10px;
 }
 
 .timeline-content p {
   font-size: 15px;
-  color: #333;
+  color: #ffffff;
   margin: 0;
 }
 
