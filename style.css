@@ -433,6 +433,144 @@ section {
   margin: 0;
 }
 
+
+/* ===== Experience Section ===== */
+.experience-section {
+  background: linear-gradient(135deg, #0a1c36 40%, #f5f7fa 100%);
+  padding: 90px 20px;
+}
+
+.experience-section .section-title {
+  font-size: 34px;
+  text-align: center;
+  margin-bottom: 60px;
+  font-weight: 700;
+  color: #ffffff;
+  position: relative;
+}
+
+.experience-section .section-title::after {
+  content: "";
+  width: 80px;
+  height: 4px;
+  background: #4da8ff;
+  display: block;
+  margin: 14px auto 0;
+  border-radius: 3px;
+}
+
+.exp-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 35px;
+}
+
+.exp-card {
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 18px;
+  padding: 30px 25px;
+  box-shadow: 0px 8px 22px rgba(0,0,0,0.25);
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.exp-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0px 14px 30px rgba(0,0,0,0.35);
+}
+
+.exp-icon {
+  width: 65px;
+  height: 65px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #20486d, #0066cc);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  margin-bottom: 18px;
+  box-shadow: 0 8px 18px rgba(0, 102, 204, 0.4);
+}
+
+.exp-content h3 {
+  font-size: 22px;
+  color: #004ab1;
+  margin-bottom: 6px;
+  font-weight: 700;
+}
+
+.exp-date {
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  display: block;
+  margin-bottom: 14px;
+}
+
+.exp-content p {
+  font-size: 15px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.exp-content ul {
+  margin-left: 18px;
+  list-style: disc;
+  color: #fcf7f7;
+}
+
+.exp-content ul li {
+  margin-bottom: 6px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.exp-card {
+  background: rgba(0, 0, 0, 0.95);
+  border-radius: 18px;
+  padding: 30px 25px;
+  box-shadow: 0px 8px 22px rgba(247, 244, 244, 0.25);
+  transition: all 0.4s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Hover Zoom + Reflection */
+.exp-card:hover {
+  transform: translateY(-10px) scale(1.05); /* zoom in slightly */
+  box-shadow: 0px 18px 35px rgba(0,0,0,0.45);
+}
+
+/* Reflection Glow Effect */
+.exp-card::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 60%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.35);
+  transform: skewX(-25deg);
+  transition: all 0.7s ease;
+}
+
+.exp-card:hover::after {
+  left: 120%;
+}
+
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .exp-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+
 /* Responsive */
 @media (max-width: 768px) {
   .timeline {
