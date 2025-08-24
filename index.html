@@ -2,300 +2,425 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Areeb Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Areeb Portfolio</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
-    <nav>
-        <div class="nav-container">
-            <div class="logo" data-aos="zoom-in" data-aos-duration="1000">
-                <span>Areeb</span>
-            </div>
-            <div class="links">
-                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"><a
-                        href="#home">Home</a></div>
-                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><a
-                        href="#about">About</a></div>
-                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"><a
-                        href="#education">Education</a></div>
-                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"><a
-                        href="#experience">Experience</a></div>
-                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"><a
-                        href="#projects">Projects</a></div>
-                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"><a
-                        href="#skills">Skills</a></div>
-                <div class="link contact-btn" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600"><a
-                        href="#contact">Contact Us</a></div>
-            </div>
-            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+  <nav>
+    <div class="nav-container">
+      <div class="logo" data-aos="zoom-in" data-aos-duration="1000">
+        <span>Areeb</span>
+      </div>
+      <div class="links">
+        <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"><a href="#home">Home</a>
         </div>
-        
-        <div class="dropdown">
-            <div class="links">
-                <a href="#home" onclick="cancel()">Home</a>
-                <a href="#about" onclick="cancel()">About</a>
-                <a href="#education" onclick="cancel()">Education</a>
-                <a href="#experience" onclick="cancel()">Experience</a>
-                <a href="#projects" onclick="cancel()">Projects</a>
-                <a href="#skills" onclick="cancel()">Skills</a>
-                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
-            </div>
+        <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><a href="#about">About</a>
         </div>
-    </nav>
-
-    <!-- ================== HERO / HOME ================== -->
-    <section id="home">
-        <div class="main-container">
-            <div class="image" data-aos="zoom-in-right" data-aos-duration="2500">
-                <img src="Untitled design.png" alt="Areeb Profile" />
-            </div>
-            <div class="content">
-                <h1 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800">Hey I'm <span>Areeb ul
-                        Amin</span></h1>
-                <div class="typewriter" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900">I'm a
-                    <span></span></div>
-                <p data-aos="flip-up" data-aos-duration="1000" data-aos-delay="1000">
-                    Versatile and creative Web Developer with skills in HTML, CSS, JavaScript, Flutter, WordPress, and
-                    Graphic Designing. <br />
-                    Experienced in building responsive, user-friendly websites and mobile applications with a strong eye
-                    for design and functionality. Proficient in MS Office for documentation and project management.
-                    Passionate about combining technical expertise and creative design to deliver modern and impactful
-                    digital solutions.
-                </p>
-                <div class="social-links" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="1200">
-                    <a href="https://github.com/ArEebQurEshi205"><i class="fa-brands fa-github"></i></a>
-                    <a href="mailto:areebulameenq12345@gmail.com"><i class="fa-solid fa-envelope"></i></a>
-                    <a href="https://www.linkedin.com/in/areeb-ul-amin-66843324b/"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="https://wa.me/923173600248"><i class="fa-brands fa-x-twitter"></i></a>
-                </div>
-                <div class="btn" data-aos="zoom-out-left" data-aos-duration="1000" data-aos-delay="1300">
-                    <button>Download CV</button>
-                </div>
-            </div>
+        <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"><a
+            href="#education">Education</a></div>
+        <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"><a
+            href="#experience">Experience</a></div>
+        <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"><a
+            href="#projects">Projects</a></div>
+        <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"><a href="#skills">Skills</a>
         </div>
-    </section>
+        <div class="link contact-btn" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600"><a
+            href="#contact">Contact Us</a></div>
+      </div>
+      <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+    </div>
 
-    <!-- ================== ABOUT SECTION ================== -->
-    <section id="about" class="about-section">
-        <div class="about-container">
+    <div class="dropdown">
+      <div class="links">
+        <a href="#home" onclick="cancel()">Home</a>
+        <a href="#about" onclick="cancel()">About</a>
+        <a href="#education" onclick="cancel()">Education</a>
+        <a href="#experience" onclick="cancel()">Experience</a>
+        <a href="#projects" onclick="cancel()">Projects</a>
+        <a href="#skills" onclick="cancel()">Skills</a>
+        <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+      </div>
+    </div>
+  </nav>
 
-            <!-- WHY CHOOSE ME -->
-            <div class="about-box" data-aos="fade-right" data-aos-duration="1200">
-                <h2>WHY CHOOSE ME</h2>
-                <ul>
-                    <li>Quick learner with enthusiasm to adopt new technologies and deliver impactful results.</li>
-                    <li>Experienced in providing technical support and troubleshooting, ensuring smooth user
-                        experiences.</li>
-                    <li>Ability to manage multiple tasks and meet deadlines effectively.</li>
-                    <li>Strong communication skills to work with teams, clients, and cross-functional departments.</li>
-                    <li>Balanced skill set across technical, creative, and professional domains.</li>
-                    <li>Passionate about continuous learning and professional growth.</li>
-                    <li>Capable of working under pressure and meeting deadlines efficiently.</li>
-                    <li>Focused on delivering innovative and impactful solutions that meet business needs.</li>
-                    <li>Self-motivated and organized, with the ability to work independently or in a team environment.
-                    </li>
-                </ul>
-            </div>
-
-            <!-- SOFT SKILLS -->
-            <div class="about-box" data-aos="fade-left" data-aos-duration="1200">
-                <h2>SOFT SKILLS</h2>
-                <div class="skills-grid">
-                    <span><i class="fa-solid fa-comments"></i> Communication Skills</span>
-                    <span><i class="fa-solid fa-people-group"></i> Team Collaboration</span>
-                    <span><i class="fa-solid fa-lightbulb"></i> Problem-Solving</span>
-                    <span><i class="fa-solid fa-brain"></i> Critical Thinking</span>
-                    <span><i class="fa-solid fa-clock"></i> Time Management</span>
-                    <span><i class="fa-solid fa-shuffle"></i> Adaptability & Flexibility</span>
-                    <span><i class="fa-solid fa-paintbrush"></i> Creativity & Innovation</span>
-                    <span><i class="fa-solid fa-eye"></i> Attention to Detail</span>
-                    <span><i class="fa-solid fa-user-tie"></i> Leadership Qualities</span>
-                    <span><i class="fa-solid fa-handshake"></i> Conflict Resolution</span>
-                    <span><i class="fa-solid fa-headphones"></i> Active Listening</span>
-                    <span><i class="fa-solid fa-layer-group"></i> Multitasking</span>
-                    <span><i class="fa-solid fa-user-check"></i> Customer Service Orientation</span>
-                    <span><i class="fa-solid fa-briefcase"></i> Work Ethic & Professionalism</span>
-                    <span><i class="fa-solid fa-rocket"></i> Quick Learner</span>
-                </div>
-            </div>
-
+  <!-- ================== HERO / HOME ================== -->
+  <section id="home">
+    <div class="main-container">
+      <div class="image" data-aos="zoom-in-right" data-aos-duration="2500">
+        <img src="Untitled design.png" alt="Areeb Profile" />
+      </div>
+      <div class="content">
+        <h1 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800">Hey I'm <span>Areeb ul
+            Amin</span></h1>
+        <div class="typewriter" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900">I'm a
+          <span></span>
         </div>
-    </section>
-
-
-    <!-- ================== EDUCATION SECTION ================== -->
-    <section id="education" class="education-section">
-        <div class="container">
-            <h2 class="section-title">Education Background</h2>
-
-            <div class="timeline">
-
-                <div class="timeline-item">
-                    <div class="timeline-icon"><i class="fas fa-graduation-cap"></i></div>
-                    <div class="timeline-content">
-                        <h3>Sir Syed University of Engineering and Technology</h3>
-                        <span class="edu-date">2020 - 2025</span>
-                        <p>Bachelors in Software Engineering</p>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-icon"><i class="fas fa-book"></i></div>
-                    <div class="timeline-content">
-                        <h3>AJ Science College</h3>
-                        <span class="edu-date">2018 - 2020</span>
-                        <p>Intermediate</p>
-                    </div>
-                </div>
-
-                <div class="timeline-item">
-                    <div class="timeline-icon"><i class="fas fa-school"></i></div>
-                    <div class="timeline-content">
-                        <h3>AJ Science College</h3>
-                        <span class="edu-date">2016 - 2018</span>
-                        <p>Matriculation</p>
-                    </div>
-                </div>
-
-            </div>
+        <p data-aos="flip-up" data-aos-duration="1000" data-aos-delay="1000">
+          Versatile and creative Web Developer with skills in HTML, CSS, JavaScript, Flutter, WordPress, and
+          Graphic Designing. <br />
+          Experienced in building responsive, user-friendly websites and mobile applications with a strong eye
+          for design and functionality. Proficient in MS Office for documentation and project management.
+          Passionate about combining technical expertise and creative design to deliver modern and impactful
+          digital solutions.
+        </p>
+        <div class="social-links" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="1200">
+          <a href="https://github.com/ArEebQurEshi205"><i class="fa-brands fa-github"></i></a>
+          <a href="mailto:areebulameenq12345@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+          <a href="https://www.linkedin.com/in/areeb-ul-amin-66843324b/"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://wa.me/923173600248"><i class="fa-brands fa-whatsapp"></i></a>
         </div>
-    </section>
+        <div class="btn" data-aos="zoom-out-left" data-aos-duration="1000" data-aos-delay="1300">
+          <a href="AreebQureshiUpdatedResume (2).pdf"><button>Download CV</button></a>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- ================== ABOUT SECTION ================== -->
+  <section id="about" class="about-section">
+    <div class="about-container">
 
-    <!-- ================== EXPERIENCE SECTION ================== -->
-<section id="experience" class="experience-section">
-  <div class="container">
-    <h2 class="section-title">Work Experience</h2>
+      <!-- WHY CHOOSE ME -->
+      <div class="about-box" data-aos="fade-right" data-aos-duration="1200">
+        <h2>WHY CHOOSE ME</h2>
+        <ul>
+          <li>Quick learner with enthusiasm to adopt new technologies and deliver impactful results.</li>
+          <li>Experienced in providing technical support and troubleshooting, ensuring smooth user
+            experiences.</li>
+          <li>Ability to manage multiple tasks and meet deadlines effectively.</li>
+          <li>Strong communication skills to work with teams, clients, and cross-functional departments.</li>
+          <li>Balanced skill set across technical, creative, and professional domains.</li>
+          <li>Passionate about continuous learning and professional growth.</li>
+          <li>Capable of working under pressure and meeting deadlines efficiently.</li>
+          <li>Focused on delivering innovative and impactful solutions that meet business needs.</li>
+          <li>Self-motivated and organized, with the ability to work independently or in a team environment.
+          </li>
+        </ul>
+      </div>
 
-    <div class="exp-grid">
-
-      <!-- Easy Mart -->
-      <div class="exp-card" data-aos="zoom-in">
-        <div class="exp-icon"><i class="fa-solid fa-shop"></i></div>
-        <div class="exp-content">
-          <h3>Easy Mart</h3>
-          <span class="exp-date">07-2022 – 10-2023</span>
-          <p>
-            <strong>WordPress Website Maintainer</strong>
-          </p>
-          <ul>
-            <li>Managed WordPress backend, ensuring smooth site performance.</li>
-            <li>Updated products, created new posts, and optimized content layout.</li>
-            <li>Edited and enhanced existing posts with SEO best practices.</li>
-            <li>Improved product images and visual presentation for better UX.</li>
-            <li>Maintained security plugins and performed site backups regularly.</li>
-            <li>Collaborated with the sales team to update promotions and offers.</li>
-          </ul>
+      <!-- SOFT SKILLS -->
+      <div class="about-box" data-aos="fade-left" data-aos-duration="1200">
+        <h2>SOFT SKILLS</h2>
+        <div class="skills-grid">
+          <span><i class="fa-solid fa-comments"></i> Communication Skills</span>
+          <span><i class="fa-solid fa-people-group"></i> Team Collaboration</span>
+          <span><i class="fa-solid fa-lightbulb"></i> Problem-Solving</span>
+          <span><i class="fa-solid fa-brain"></i> Critical Thinking</span>
+          <span><i class="fa-solid fa-clock"></i> Time Management</span>
+          <span><i class="fa-solid fa-shuffle"></i> Adaptability & Flexibility</span>
+          <span><i class="fa-solid fa-paintbrush"></i> Creativity & Innovation</span>
+          <span><i class="fa-solid fa-eye"></i> Attention to Detail</span>
+          <span><i class="fa-solid fa-user-tie"></i> Leadership Qualities</span>
+          <span><i class="fa-solid fa-handshake"></i> Conflict Resolution</span>
+          <span><i class="fa-solid fa-headphones"></i> Active Listening</span>
+          <span><i class="fa-solid fa-layer-group"></i> Multitasking</span>
+          <span><i class="fa-solid fa-user-check"></i> Customer Service Orientation</span>
+          <span><i class="fa-solid fa-briefcase"></i> Work Ethic & Professionalism</span>
+          <span><i class="fa-solid fa-rocket"></i> Quick Learner</span>
         </div>
       </div>
 
-      <!-- Sybrid -->
-      <div class="exp-card" data-aos="zoom-in" data-aos-delay="200">
-        <div class="exp-icon"><i class="fa-solid fa-headset"></i></div>
-        <div class="exp-content">
-          <h3>Sybrid</h3>
-          <span class="exp-date">09-2024 – 04-2025</span>
-          <p>
-            <strong>StormFiber Campaign – Support Specialist</strong>
-          </p>
-          <ul>
-            <li>Provided technical support and troubleshooting for customers.</li>
-            <li>Resolved complaints via calls and live chat with professionalism.</li>
-            <li>Guided customers on billing, new installations, and package upgrades.</li>
-            <li>Maintained detailed records of customer interactions.</li>
-            <li>Trained new interns on communication and complaint-handling skills.</li>
-            <li>Consistently achieved high customer satisfaction ratings.</li>
-          </ul>
+    </div>
+  </section>
+
+
+  <!-- ================== EDUCATION SECTION ================== -->
+  <section id="education" class="education-section">
+    <div class="container">
+      <h2 class="section-title">Education Background</h2>
+
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-icon"><i class="fas fa-graduation-cap"></i></div>
+          <div class="timeline-content">
+            <h3>Sir Syed University of Engineering and Technology</h3>
+            <span class="edu-date">2020 - 2025</span>
+            <p>Bachelors in Software Engineering</p>
+          </div>
         </div>
+
+        <div class="timeline-item">
+          <div class="timeline-icon"><i class="fas fa-book"></i></div>
+          <div class="timeline-content">
+            <h3>AJ Science College</h3>
+            <span class="edu-date">2018 - 2020</span>
+            <p>Intermediate</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-icon"><i class="fas fa-school"></i></div>
+          <div class="timeline-content">
+            <h3>AJ Science College</h3>
+            <span class="edu-date">2016 - 2018</span>
+            <p>Matriculation</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================== EXPERIENCE SECTION ================== -->
+  <section id="experience" class="experience-section">
+    <div class="container">
+      <h2 class="section-title">Work Experience</h2>
+
+      <div class="exp-grid">
+
+        <!-- Easy Mart -->
+        <div class="exp-card" data-aos="zoom-in">
+          <div class="exp-icon"><i class="fa-solid fa-shop"></i></div>
+          <div class="exp-content">
+            <h3>Easy Mart</h3>
+            <span class="exp-date">07-2022 – 10-2023</span>
+            <p>
+              <strong>WordPress Website Maintainer</strong>
+            </p>
+            <ul>
+              <li>Managed WordPress backend, ensuring smooth site performance.</li>
+              <li>Updated products, created new posts, and optimized content layout.</li>
+              <li>Edited and enhanced existing posts with SEO best practices.</li>
+              <li>Improved product images and visual presentation for better UX.</li>
+              <li>Maintained security plugins and performed site backups regularly.</li>
+              <li>Collaborated with the sales team to update promotions and offers.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Sybrid -->
+        <div class="exp-card" data-aos="zoom-in" data-aos-delay="200">
+          <div class="exp-icon"><i class="fa-solid fa-headset"></i></div>
+          <div class="exp-content">
+            <h3>Sybrid</h3>
+            <span class="exp-date">09-2024 – 04-2025</span>
+            <p>
+              <strong>StormFiber Campaign – Support Specialist</strong>
+            </p>
+            <ul>
+              <li>Provided technical support and troubleshooting for customers.</li>
+              <li>Resolved complaints via calls and live chat with professionalism.</li>
+              <li>Guided customers on billing, new installations, and package upgrades.</li>
+              <li>Maintained detailed records of customer interactions.</li>
+              <li>Trained new interns on communication and complaint-handling skills.</li>
+              <li>Consistently achieved high customer satisfaction ratings.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================== PROJECTS SECTION ================== -->
+  <section id="projects" class="projects-section">
+    <div class="container">
+      <h2 class="section-title">My Projects</h2>
+
+      <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <div class="project-card" data-aos="zoom-in">
+          <h3>Coffee Shop</h3>
+          <p>Developed using <strong>HTML, CSS & JavaScript</strong>. A simple interactive coffee shop website.</p>
+          <a href="#" target="_blank" class="project-link">View Project</a>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card" data-aos="zoom-in" data-aos-delay="150">
+          <h3>My Resume</h3>
+          <p>Created with <strong>HTML & CSS</strong>. A clean and professional portfolio resume.</p>
+          <a href="https://github.com/ArEebQurEshi205/Html-CSS-Resume" target="_blank" class="project-link">View
+            Project</a>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card" data-aos="zoom-in" data-aos-delay="300">
+          <h3>Billing Software</h3>
+          <p>Built with <strong>Python & Tkinter</strong>. Desktop software for billing and invoice management.</p>
+          <a href="https://github.com/ArEebQurEshi205/Billing-Software-Using-Python" target="_blank"
+            class="project-link">View Project</a>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card" data-aos="zoom-in" data-aos-delay="450">
+          <h3>Simple Calculator</h3>
+          <p>A basic calculator made using <strong>HTML & CSS</strong>.</p>
+          <a href="https://github.com/ArEebQurEshi205/Simple-Calculator-using-Html-Css" target="_blank"
+            class="project-link">View Project</a>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="project-card" data-aos="zoom-in" data-aos-delay="600">
+          <h3>Hotel Management System</h3>
+          <p>Developed with <strong>Python & Tkinter</strong>. Manage bookings, check-ins, and check-outs efficiently.
+          </p>
+          <a href="#" target="_blank" class="project-link">View Project</a>
+        </div>
+
+        <!-- Project 6 -->
+        <div class="project-card" data-aos="zoom-in" data-aos-delay="750">
+          <h3>Student Management System</h3>
+          <p>Built with <strong>Python & Tkinter</strong>. System to manage student records and academic performance.
+          </p>
+          <a href="#" target="_blank" class="project-link">View Project</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+<!-- ================== TECHNICAL SKILLS SECTION ================== -->
+<section id="skills2" class="skills2-section">
+  <div class="container">
+    <h2 class="section-title">Technical Skills</h2>
+
+    <div class="skills2-grid">
+
+      <!-- Web -->
+      <div class="skill2-card" data-aos="zoom-in">
+        <i class="fa-brands fa-html5"></i>
+        <h3>Web Development</h3>
+        <p>HTML, HTML5, CSS, Flexbox, Grid</p>
+      </div>
+
+      <!-- JavaScript -->
+      <div class="skill2-card" data-aos="zoom-in" data-aos-delay="100">
+        <i class="fa-brands fa-js"></i>
+        <h3>JavaScript</h3>
+        <p>Interactive UI, DOM manipulation</p>
+      </div>
+
+      <!-- WordPress -->
+      <div class="skill2-card" data-aos="zoom-in" data-aos-delay="200">
+        <i class="fa-brands fa-wordpress"></i>
+        <h3>WordPress</h3>
+        <p>Custom themes, plugins, SEO optimization</p>
+      </div>
+
+      <!-- Python -->
+      <div class="skill2-card" data-aos="zoom-in" data-aos-delay="300">
+        <i class="fa-brands fa-python"></i>
+        <h3>Python</h3>
+        <p>Automation, Tkinter, scripting</p>
+      </div>
+
+      <!-- Flutter -->
+      <div class="skill2-card" data-aos="zoom-in" data-aos-delay="400">
+        <i class="fa-solid fa-mobile-screen"></i>
+        <h3>Flutter</h3>
+        <p>Cross-platform mobile apps</p>
+      </div>
+
+      <!-- Graphic Design -->
+      <div class="skill2-card" data-aos="zoom-in" data-aos-delay="500">
+        <i class="fa-solid fa-pen-nib"></i>
+        <h3>Graphic Designing</h3>
+        <p>Posters, banners, UI/UX design</p>
+      </div>
+
+      <!-- MS Office -->
+      <div class="skill2-card" data-aos="zoom-in" data-aos-delay="600">
+        <i class="fa-brands fa-microsoft"></i>
+        <h3>MS Office</h3>
+        <p>Word, Excel, PowerPoint</p>
       </div>
 
     </div>
   </div>
 </section>
 
-<!-- ================== PROJECTS SECTION ================== -->
-<section id="projects" class="projects-section">
-  <div class="container">
-    <h2 class="section-title">My Projects</h2>
 
-    <div class="projects-grid">
 
-      <!-- Project 1 -->
-      <div class="project-card" data-aos="zoom-in">
-        <h3>Coffee Shop</h3>
-        <p>Developed using <strong>HTML, CSS & JavaScript</strong>. A simple interactive coffee shop website.</p>
-        <a href="#" target="_blank" class="project-link">View Project</a>
-      </div>
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-      <!-- Project 2 -->
-      <div class="project-card" data-aos="zoom-in" data-aos-delay="150">
-        <h3>My Resume</h3>
-        <p>Created with <strong>HTML & CSS</strong>. A clean and professional portfolio resume.</p>
-        <a href="https://github.com/ArEebQurEshi205/Html-CSS-Resume" target="_blank" class="project-link">View Project</a>
-      </div>
 
-      <!-- Project 3 -->
-      <div class="project-card" data-aos="zoom-in" data-aos-delay="300">
-        <h3>Billing Software</h3>
-        <p>Built with <strong>Python & Tkinter</strong>. Desktop software for billing and invoice management.</p>
-        <a href="https://github.com/ArEebQurEshi205/Billing-Software-Using-Python" target="_blank" class="project-link">View Project</a>
-      </div>
 
-      <!-- Project 4 -->
-      <div class="project-card" data-aos="zoom-in" data-aos-delay="450">
-        <h3>Simple Calculator</h3>
-        <p>A basic calculator made using <strong>HTML & CSS</strong>.</p>
-        <a href="https://github.com/ArEebQurEshi205/Simple-Calculator-using-Html-Css" target="_blank" class="project-link">View Project</a>
-      </div>
 
-      <!-- Project 5 -->
-      <div class="project-card" data-aos="zoom-in" data-aos-delay="600">
-        <h3>Hotel Management System</h3>
-        <p>Developed with <strong>Python & Tkinter</strong>. Manage bookings, check-ins, and check-outs efficiently.</p>
-        <a href="#" target="_blank" class="project-link">View Project</a>
-      </div>
 
-      <!-- Project 6 -->
-      <div class="project-card" data-aos="zoom-in" data-aos-delay="750">
-        <h3>Student Management System</h3>
-        <p>Built with <strong>Python & Tkinter</strong>. System to manage student records and academic performance.</p>
-        <a href="#" target="_blank" class="project-link">View Project</a>
-      </div>
 
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({ offset: 0 });
+    function hamburg() {
+      const navbar = document.querySelector(".dropdown");
+      navbar.style.transform = "translateY(0px)";
+    }
+    function cancel() {
+      const navbar = document.querySelector(".dropdown");
+      navbar.style.transform = "translateY(-500px)";
+    }
+
+    // Add highlight effect when Contact Us clicked
+document.querySelectorAll('a[href="#contact"]').forEach(link => {
+  link.addEventListener("click", () => {
+    setTimeout(() => {
+      const box = document.querySelector(".highlight-box");
+      box.classList.add("flash");
+      setTimeout(() => box.classList.remove("flash"), 1500);
+    }, 500); // wait for scroll
+  });
+});
+
+  </script>
+
+<!-- ================== FOOTER / CONTACT SECTION ================== -->
+<footer id="contact" class="footer-section">
+  <div class="footer-container">
+
+    <!-- Get in Touch -->
+    <div class="footer-box highlight-box">
+      <h2>📞 Get in Touch</h2>
+      <p><i class="fa-solid fa-phone"></i> Phone: <a href="tel:03160322477">0316-0322477</a></p>
+      <p><i class="fa-brands fa-whatsapp"></i> WhatsApp: <a href="https://wa.me/923160322477">0316-0322477</a></p>
+      <p><i class="fa-solid fa-envelope"></i> Email: 
+        <a href="mailto:areebulameenq12345@gmail.com">areebulameenq12345@gmail.com</a>
+      </p>
     </div>
+
+    <!-- Quick Links -->
+    <div class="footer-box">
+      <h2>🔗 Quick Links</h2>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills2">Skills</a></li>
+      </ul>
+    </div>
+
+    <!-- Social Media -->
+    <div class="footer-box">
+      <h2>🌍 Connect</h2>
+      <div class="footer-socials">
+        <a href="https://github.com/ArEebQurEshi205" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="mailto:areebulameenq12345@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/areeb-ul-amin-66843324b/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://wa.me/923160322477"><i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+    </div>
+
   </div>
-</section>
+
+  <div class="footer-bottom">
+    <p>© 2025 Areeb ul Amin | All Rights Reserved</p>
+  </div>
+</footer>
 
 
 
-
-
-    <!-- FontAwesome Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-
-
-
-
-
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        AOS.init({ offset: 0 });
-        function hamburg() {
-            const navbar = document.querySelector(".dropdown");
-            navbar.style.transform = "translateY(0px)";
-        }
-        function cancel() {
-            const navbar = document.querySelector(".dropdown");
-            navbar.style.transform = "translateY(-500px)";
-        }
-    </script>
 </body>
 
 </html>
