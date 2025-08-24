@@ -735,6 +735,105 @@ section {
 }
 
 
+/* ===== Footer Section ===== */
+.footer-section {
+  background: linear-gradient(135deg, #222222, #000000, #292727);
+  color: #ffffff;
+  padding: 70px 20px 30px;
+  text-align: center;
+  position: relative;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto 40px;
+}
+
+.footer-box h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #4da8ff;
+  text-shadow: 0 0 8px #4da8ff;
+}
+
+.footer-box p, 
+.footer-box a {
+  font-size: 15px;
+  color: #e2e2e2;
+  line-height: 1.8;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-box a:hover {
+  color: #4da8ff;
+  text-shadow: 0 0 8px #4da8ff;
+}
+
+.footer-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-box ul li {
+  margin-bottom: 10px;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.footer-socials a {
+  font-size: 22px;
+  color: #4da8ff;
+  border: 1px solid #4da8ff;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.footer-socials a:hover {
+  background: #4da8ff;
+  color: #0a1931;
+  transform: scale(1.2);
+  box-shadow: 0 0 15px #4da8ff;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 15px;
+  font-size: 14px;
+  color: #aaa;
+}
+
+/* ===== Reflection Effect for Get in Touch ===== */
+.highlight-box {
+  position: relative;
+  overflow: hidden;
+}
+
+.highlight-box.flash {
+  animation: flashHighlight 1.5s ease forwards;
+}
+
+@keyframes flashHighlight {
+  0% { box-shadow: 0 0 0px #4da8ff; }
+  50% { box-shadow: 0 0 30px #4da8ff; }
+  100% { box-shadow: 0 0 0px #4da8ff; }
+}
+
+
+
 
 /* Responsive */
 @media (max-width: 600px) {
